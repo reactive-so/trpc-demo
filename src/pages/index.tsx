@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     <div className="h-screen flex justify-center items-center">
       <div className="flex flex-col items-center">
         <h1 className="mb-6 text-5xl font-black text-indigo-500">
-          Pokemon list with Next
+          Pokemon list with tRPC
         </h1>
         {data?.results ? (
           <>
